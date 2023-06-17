@@ -1,0 +1,51 @@
+.container {
+    padding: 16px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* Form elements */
+input[type=text], input[type=password], input[type=email], input[type=tel] ,select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* Label styles */
+
+
+/* Button styles */
+button {
+    background-color: #D32F2F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #FF5252;
+}
+
+/* Link styles */
+a {
+    color: #D32F2F;
+}
+
+a:hover {
+    text-decoration: underline;
+}

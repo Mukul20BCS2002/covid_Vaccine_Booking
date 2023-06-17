@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: url(dnBlood.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #666;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Hero section styles */
+  
+  .hero {
+    /* background: url(donate5.png);  */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    /* background-color: rgb(204, 160, 0); */
+    color: #201b1b;
+    padding: 3rem 1rem;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .hero h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Donation form styles */
+  .donate-form {
+    /* background: url(donate2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    /* background-color: #fffcfb; */
+    border: 1px solid #ccc;
+  }
+  
+  .donate-form h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .donate-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .donate-form input,
+  .donate-form select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .donate-form button {
+    background-color: #c00;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .donate-form button:hover {
+    background-color: #a00;
+  }
